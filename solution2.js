@@ -4,7 +4,7 @@ let demeritPoints = (speed - 70)/5
     if (speed < 70){
         alert ("Ok.")
     }
-    else if (demeritPoints < 12 && speed > 70){
+    else if (demeritPoints <= 12){
         alert (`Points: ${demeritPoints}`)
     }
     else if (demeritPoints > 12){
